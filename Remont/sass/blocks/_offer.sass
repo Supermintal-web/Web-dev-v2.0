@@ -1,0 +1,176 @@
+.offer
+	background: url('../img/offer-bg.png') no-repeat
+	background-size: auto 
+	background-position: right 
+	position: relative
+	// height: 595px
+	&:before
+		content: ''
+		height: 100%
+		width: 50%
+		position: absolute
+		left: 0
+		top: 0
+		background-color: #fff
+	&-block
+		width: 50%
+		padding-right: 90px
+		position: relative
+	&__title
+		line-height: 35px
+		margin-bottom: 17px
+		text-align: left
+	&__subtitle
+		font-size: 16px
+	&__input
+		width: 240px
+		margin-top: 33px
+		margin-bottom: 30px
+		padding-top: 19px
+		font-size: 15px
+		line-height: 24px
+		padding-left: 31px
+		&:first-child
+			margin-right: 10px
+			padding-left: 25px
+		&:last-child
+			padding-left: 31px
+	&__button
+		width: 100%
+		min-height: 70px
+		margin-bottom: 25px
+		font-size: 16px
+		+bold
+	&__phone
+		color: $text-color
+		text-decoration: none
+		display: inline-block
+		+bold
+		font-size: 15px
+		margin-bottom: 28px
+		margin-top: 5px
+	&-class
+		width: 100%
+		display: flex
+		justify-content: space-between
+		&__text
+			line-height: 24px
+			font-size: 15px
+	&__down
+		margin-left: 70px
+@media (max-width: 1200px)
+	.offer
+		// height: 700px
+		background-size: cover
+		&__block
+			margin-bottom: 30px
+			width: 50%
+		&__input
+			width: 100%
+			margin: 10px 0
+		&__button
+			font-size: 13px
+			margin-top: 10px
+		&__title
+		display: flex
+		align-items: center
+		font-size: 10px
+		&-class
+			display: flex
+			flex-wrap: wrap
+			justify-content: space-between
+			align-items: center
+		&__down
+			margin-left: 0
+			margin-top: 5px
+@media (max-width: 768px)
+	.offer
+		background: #fff
+		&-block
+			margin-bottom: 30px
+			width: 100%
+			padding: 0
+			display: flex
+			flex-direction: column
+			align-items: center
+		&__title
+			display: flex
+			align-items: center
+			justify-content: center
+			font-size: 25px
+		&__subtitle
+			line-height: 1.2
+		&__form
+			width: 70%
+			display: flex
+			flex-direction: column
+			align-items: center
+		&__input
+			&:first-child
+				margin-top: 20px
+				margin-left: auto
+				margin-right: auto
+@media (max-width: 576px)
+	.offer
+		padding: 0
+		padding-top: 47px
+		padding-bottom: 31px
+		// height: 650px
+		&-block
+			margin-top: 0
+		&__title
+			font-size: 18px
+			line-height: 1.3
+			display: flex
+			justify-content: flex-start
+			margin-bottom: 13px
+			margin-top: 0
+			margin-left: -22px
+		&__subtitle
+			font-size: 14px
+			margin-left: -80px
+		&__form
+			width: 100%
+			margin-left: -4px
+		&__input
+			width: 275px
+			margin-bottom: 10px
+			font-size: 15px
+			padding-left: 21px
+			&:first-child
+				margin-top: 27px
+				margin-bottom: -2px
+				padding-left: 22px
+			&:last-child
+				margin-bottom: 10px
+				padding-left: 21px
+		&__button
+			width: 275px
+			margin-top: 0
+			font-size: 14px
+			+bold
+			padding: 19px 62px
+			line-height: 17px
+		&__phone
+			transform: translateY(3px)
+			margin-bottom: -4px
+		&-class
+			margin-left: 18px
+			&__text
+				max-width: 225px
+				margin-top: -5px
+		
+				
+				
+			
+		
+			
+			
+			
+				
+		
+		
+
+	
+
+	

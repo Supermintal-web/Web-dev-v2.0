@@ -1,0 +1,70 @@
+
+.portfolio
+	background: $section-color url('../img/portfolio/portfolio-pattern.jpg') repeat-y center left
+	background-size: 50%
+	&__title
+		margin: auto
+		margin-bottom: 92px
+		margin-top: 33px
+		line-height: 45px
+		font-size: 30px
+		+bold
+	&__arrows
+		max-width: 120px
+		margin: auto
+		margin-top: 69px
+		display: flex
+		justify-content: space-between
+		margin-bottom: 33px
+.slider
+	&__item
+	// 	margin-right: 25px
+	width: 102%
+	&__image
+	margin: auto
+	margin-top: 35px
+	// width: 102%
+@media (max-width: 1200px)
+	.slider
+		&__image
+			margin: auto
+			width: 80%
+	.portfolio
+		&__box
+			display: flex
+			justify-content: center
+@media (max-width: 768px)
+	.portfolio
+		background: $section-color
+	.slider
+		&__image
+			margin: auto
+@media (max-width: 576px)
+	.portfolio
+		padding-top: 40px
+		&__arrows
+			margin-top: 46px
+		&__title
+			font-size: 18px
+			line-height: 21px
+			margin-top: 0
+			margin-bottom: 8px
+	.slider
+		width: 85%
+		height: 100%
+		&__image
+			margin: auto
+			width: 102%
+			height: 102%
+	// .slick
+	// 	width: 100%
+	// 	height: auto
+	// 	&-track
+	// 		width: 6000px !important
+	// 	&-slide
+	// 		width: 248px !important
+	// 		margin-right: 64px
+		
+		
+	
+		
